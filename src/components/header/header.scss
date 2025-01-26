@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+// @media only screen and (max-width: 450px) {
+//   padding: 0 1em;
+// }
+// @media only screen and (min-width: 450px) {
+//   padding: 0 2em;
+// }
+// @media only screen and (min-width: 560px) {
+//   padding: 0 4em;
+// }
+// @media only screen and (min-width: 1200px) {
+//   padding: 0 8em;
+// }
+
+.header {
+  width: 100%;
+  border-bottom: 0.5px solid #dadada;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: 450px) {
+    padding: 1em 2em;
+  }
+  @media only screen and (min-width: 450px) {
+    padding: 1.5em 3em;
+  }
+  @media only screen and (min-width: 560px) {
+    padding: 2em 4em;
+  }
+  @media only screen and (min-width: 768px) {
+    padding: 2.5em 5em;
+  }
+  @media only screen and (min-width: 1024px) {
+    padding: 3em 6em;
+  }
+  
+  .dummy{
+    width: 30px;
+    @media only screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  h1 {
+    @media only screen and (max-width: 450px) {
+      font-size: 10vmin;
+      span {
+        font-size: 6.6vmin;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      font-size: 6vmin;
+      span {
+        font-size: 4vmin;
+      }
+    }
+
+    font-size: 1.5vmax;
+    font-family: "Heebo", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #1c1c1c;
+    letter-spacing: 0.25em;
+    span {
+      @media only screen and (max-width: 450px) {
+        font-size: 6.6vmin;
+      }
+      @media only screen and (max-width: 1024px) {
+        font-size: 4vmin;
+      }
+
+      font-size: 1vmax;
+      font-family: "Heebo", serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      color: #1c1c1c88;
+    }
+  }
+  ul {
+    @media only screen and (max-width: 1023px) {
+      width: auto;
+      justify-content: right;
+    }
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    li {
+      color: #1c1c1c;
+      font-size: 1.1vmax;
+      position: relative;
+      font-family: "Heebo", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        border-radius: 9999px;
+        left: 50%;
+        bottom: calc(-1.5em + -1px);
+        background-color: #1c1c1c;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+      }
+      &:hover {
+        &::after {
+          width: 140%;
+          left: -20%;
+          opacity: 1;
+        }
+      }
+
+      @media only screen and (max-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+}

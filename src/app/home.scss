@@ -1,0 +1,62 @@
+// @media only screen and (max-width: 450px) {
+//   padding: 0 1em;
+// }
+// @media only screen and (min-width: 450px) {
+//   padding: 0 2em;
+// }
+// @media only screen and (min-width: 560px) {
+//   padding: 0 4em;
+// }
+// @media only screen and (min-width: 1200px) {
+//   padding: 0 8em;
+// }
+
+.main-container {
+  border: 2.5em solid #d7d7d7;
+  height: calc(100vh);
+  position: relative;
+  background: #d7d7d7;
+  @media only screen and (max-width: 450px) {
+    border-width: 0.5em;
+  }
+  @media only screen and (min-width: 450px) {
+    border-width: 1em;
+  }
+  @media only screen and (min-width: 560px) {
+    border-width: 1.5em;
+  }
+  @media only screen and (min-width: 1200px) {
+    border-width: 2em;
+  }
+}
+
+.wrapper-container {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 5em);
+  border-radius: 3em;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+  @media only screen and (max-width: 450px) {
+    height: calc(100vh - 1em);
+  }
+  @media only screen and (min-width: 450px) {
+    height: calc(100vh - 2em);
+  }
+  @media only screen and (min-width: 560px) {
+    height: calc(100vh - 3em);
+  }
+  @media only screen and (min-width: 1200px) {
+    height: calc(100vh - 4em);
+  }
+}
+
+.hero-section {
+  background: #fff;
+}

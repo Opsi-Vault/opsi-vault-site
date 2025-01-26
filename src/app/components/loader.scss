@@ -1,0 +1,30 @@
+.loader {
+    display: block;
+    --height-of-loader: 5px;
+    --loader-color: #0f6fc8;
+    width: 90px;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: #aec6ef;
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .loader::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: -2.5px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    animation: moving 3s linear infinite;
+  }
+  
+  @keyframes moving {
+    100% {
+      left: calc(100% - 5px);
+    }
+  }
+  

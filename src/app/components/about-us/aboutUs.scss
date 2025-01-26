@@ -1,0 +1,168 @@
+.about-us-main-contianer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background: #fff;
+  cursor: default;
+}
+
+.about-us-content {
+  width: min(100%, 1440px);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  @media only screen and (max-width: 450px) {
+    padding: 0 1.5em;
+  }
+  @media only screen and (min-width: 450px) {
+    padding: 0 3em;
+  }
+  @media only screen and (min-width: 560px) {
+    padding: 0 6em;
+  }
+  @media only screen and (min-width: 1200px) {
+    padding: 0 10em;
+  }
+  @media only screen and (min-width: 1440px) {
+    margin: 0 auto;
+  }
+}
+
+.left-content-au {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px 13px rgba(10.999999999999986, 91, 224, 0.08);
+  @media only screen and (min-width: 800px) {
+    width: 40%;
+  }
+  ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5em 0;
+    li {
+      width: 80%;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      margin: 1.5em 0;
+    }
+  }
+}
+
+.icon {
+  font-size: 2.5em;
+  margin-right: 5px;
+  color: #0f6fc8;
+}
+
+.lau-content {
+  width: 85%;
+  h2 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #444444;
+  }
+  p {
+    color: #616161;
+    display: block;
+    // letter-spacing: 1px;
+    line-height: 1.2em;
+  }
+  button {
+    width: 10em;
+    height: 3em;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 3em;
+    color: #fff;
+    background: #0f6fc8;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+.right-content-au {
+  width: 100%;
+  margin-top: 80px;
+  @media only screen and (min-width: 800px) {
+    width: 55%;
+    margin-top: 0;
+  }
+}
+
+.right-content-au > h5 {
+  color: #0f6fc8;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+}
+
+.rau-sub-heading {
+  font-size: 2.5em;
+  letter-spacing: -1px;
+  font-weight: 800;
+  line-height: 1.2em;
+  color: #232323;
+  span {
+    @media only screen and (min-width: 800px) {
+      &::after {
+        content: "\a";
+        white-space: pre;
+      }
+    }
+  }
+}
+
+.rau-content {
+  width: 100%;
+  font-size: 1em;
+  margin-top: 1.4em 0 1em;
+  color: #616161;
+}
+
+.rau-note {
+  margin: 2.5em 0 2.5em;
+  padding: 26px 30px 20px 30px;
+  border-style: solid;
+  border-width: 0px 0px 0px 4px;
+  border-color: #0f6fc8;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #223322;
+  line-height: 1.6em;
+}
+
+.rau-signature {
+  h2 {
+    line-height: 1em;
+    font-size: 1.4em;
+    color: #232323;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1em;
+    color: #616161;
+    margin-bottom: 1em;
+  }
+}

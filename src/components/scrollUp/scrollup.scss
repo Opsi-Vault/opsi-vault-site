@@ -1,0 +1,18 @@
+.scroll-up-button {
+  width: 4em;
+  height: 4em;
+  background: #0f6fc8;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2em;
+  right: 3em;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.scroll-button {
+  font-size: 2.5em;
+}

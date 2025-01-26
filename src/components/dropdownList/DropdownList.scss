@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+/* Define the theme colors */
+$background-light: #fff;
+$background-dark: #f2f2f2;
+$text-dark: #1c1c1c;
+$border-light: #dadada;
+
+/* Main dropdown styling */
+.dropdown {
+  @media only screen and (min-width: 1024px) {
+    display: none;
+  }
+  position: relative;
+  font-family: "Arial", sans-serif;
+  border-radius: 0 0 3em 3em;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: $background-light; /* Ensures background */
+  border: 1px solid $border-light;
+  border-radius: 5px 5px 3em 3em;
+  width: 100%;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transform: scaleY(0) translateY(-10px);
+  transform-origin: top;
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s 0.3s;
+    z-index: 10;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1) translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.dropdown-item {
+  padding: 12px 15px;
+  font-size: 4vmin; /* Increased font size */
+  font-family: "Heebo", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: $text-dark;
+  cursor: pointer;
+  text-align: center; /* Centered text */
+  background-color: $background-light; /* Ensure background is visible */
+  border-bottom: 1px solid $border-light;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: $background-dark; /* Hover effect */
+    color: $text-dark;
+  }
+}
