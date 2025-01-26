@@ -9,9 +9,11 @@ import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact-us/ContactUs";
 import Loader from "../components/loader/Loader";
+import Button from "../components/button/Button";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -32,11 +34,24 @@ export default function Home() {
                 <h1>YOUR FUTURE, OUR MISSION</h1>
                 <div>
                   <h3>Exceeding Standards In Elite Construction</h3>
-                  <button>Learn More</button>
+                  <Button onClick={() => console.log("Clicked")}>
+                    Learn More
+                  </Button>
                 </div>
               </div>
-              <div className="image-container">
-                <div className="image-content-container"></div>
+              <div className="hero-image-container">
+                <img src="./assets/bg-med.jpg" alt="" />
+                <div className="hero-image-content-container">
+                  <section className="left-section">
+                    <div className="tag">NEWS</div>
+                    <h2>Leader In Elite Construction</h2>
+                    <p>
+                      Our services: service1, service2, service3, service4, and
+                      service5
+                    </p>
+                  </section>
+                  <button className="right-section-button"><MdArrowOutward className="top-right-arrow" /></button>
+                </div>
               </div>
               <div className="hero-section-card-container"></div>
             </section>

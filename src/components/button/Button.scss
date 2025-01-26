@@ -1,0 +1,32 @@
+.button {
+  padding: .8em 1.6em;
+  border: 2px solid #1c1c1c;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: var(--font-heebo);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6vmax;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1em;
+
+  &:hover {
+    background-color: #fff;
+    color: #1c1c1c;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @media only screen and (max-width: 1023px){
+    padding: .4em 1.6em;
+    width: max-content;
+    font-size: 5vmin;
+    margin: 4vmin 0 0;
+  }
+
+}

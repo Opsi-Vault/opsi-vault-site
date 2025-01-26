@@ -20,19 +20,19 @@
   align-items: center;
 
   @media only screen and (max-width: 450px) {
-    padding: 1em 2em;
+    padding: 0.5em 2em;
   }
   @media only screen and (min-width: 450px) {
-    padding: 1.5em 3em;
+    padding: 1em 3em;
   }
   @media only screen and (min-width: 560px) {
-    padding: 2em 4em;
+    padding: 1.5em 4em;
   }
   @media only screen and (min-width: 768px) {
-    padding: 2.5em 5em;
+    padding: 1.5em 5em;
   }
   @media only screen and (min-width: 1024px) {
-    padding: 3em 6em;
+    padding: 2em 6em;
   }
   
   .dummy{
@@ -86,7 +86,7 @@
     }
     width: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     cursor: pointer;
@@ -105,7 +105,7 @@
         height: 2px;
         border-radius: 9999px;
         left: 50%;
-        bottom: calc(-1.5em + -1px);
+        bottom: calc(-36px);
         background-color: #1c1c1c;
         opacity: 0;
         transition: all 0.5s ease-in-out;

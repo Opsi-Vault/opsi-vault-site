@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Heebo } from "next/font/google";
+import { Heebo, Bebas_Neue } from "next/font/google";
 
 const heebo = Heebo({ subsets: ["latin"] });
 
@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Leven Plus",
   description: "Your Partner for Empowering Tech Solutions",
 };
+
 
 export default function RootLayout({
   children,
