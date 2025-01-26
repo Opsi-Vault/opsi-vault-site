@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
-
 // @media only screen and (max-width: 450px) {
 //   padding: 0 1em;
 // }
@@ -59,7 +57,7 @@
     }
 
     font-size: 1.5vmax;
-    font-family: "Heebo", serif;
+    font-family: var(--font-heebo);
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -74,7 +72,7 @@
       }
 
       font-size: 1vmax;
-      font-family: "Heebo", serif;
+      font-family: var(--font-heebo);
       font-optical-sizing: auto;
       font-weight: 200;
       font-style: normal;
@@ -96,7 +94,7 @@
       color: #1c1c1c;
       font-size: 1.1vmax;
       position: relative;
-      font-family: "Heebo", serif;
+      font-family: var(--font-heebo);
       font-optical-sizing: auto;
       font-weight: 300;
       font-style: normal;

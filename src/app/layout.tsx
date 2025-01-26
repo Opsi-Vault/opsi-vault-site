@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Heebo } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const heebo = Heebo({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Leven Plus",
@@ -27,7 +27,7 @@ export default function RootLayout({
           content="I4bSKo4qhYXtLwP4_cCzA2AHadn6WgKE0KEOis6Wz5o"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={heebo.className}>{children}</body>
     </html>
   );
 }
