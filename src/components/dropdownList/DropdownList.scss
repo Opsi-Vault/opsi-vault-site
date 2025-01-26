@@ -49,7 +49,7 @@ $border-light: #dadada;
 .dropdown-item {
   padding: 12px 15px;
   font-size: 4vmin; /* Increased font size */
-  font-family: "Heebo", serif;
+  font-family: var(--font-heebo);
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
