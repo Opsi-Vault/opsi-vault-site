@@ -1,11 +1,11 @@
 .loader {
     display: block;
     --height-of-loader: 5px;
-    --loader-color: #0f6fc8;
+    --loader-color: #1c1c1c;
     width: 90px;
     height: var(--height-of-loader);
     border-radius: 30px;
-    background-color: #aec6ef;
+    background-color: #1c1c1c40;
     position: relative;
     margin: 20px 0;
   }
