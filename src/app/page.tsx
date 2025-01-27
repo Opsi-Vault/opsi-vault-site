@@ -59,7 +59,7 @@ export default function Home() {
             <AboutUs />
             <Services />
             {/* <Counter /> */}
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
             {/* <Testimonials/> */}
             <Footer />
