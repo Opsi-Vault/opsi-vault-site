@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer__addr">
         {/* <img className="footer__logo" src="logo.svg" alt="" /> */}
         <div className="footer__logo">
-          <svg
+          {/* <svg
             width="340"
             height="75"
             viewBox="0 0 340 75"
@@ -32,12 +32,15 @@ const Footer = () => {
               fill="#none"
               style={false ? { fill: "#0f6fc8" } : { fill: "#ffffff" }}
             />
-          </svg>
+          </svg> */}
+          <h1>
+            OPSI<span>vault</span>
+          </h1>
         </div>
         <h2>Contact</h2>
 
         <address>
-          mail@leven.plus
+          mail@opsivault.com
           <br />
           <a className="footer__btn" href="mailto:mail@leven.plus">
             Email Us
@@ -64,7 +67,7 @@ const Footer = () => {
             <li>
               <a href="#">Blogs</a>
             </li>
-            
+
             <li>
               <a href="#get-a-free-quote">Get a Quote</a>
             </li>
@@ -121,11 +124,11 @@ const Footer = () => {
       </ul>
 
       <div className="legal">
-        <p>&copy; 2024 Leven Plus. All rights reserved.</p>
+        <p>&copy; 2024 Opsi Vault. All rights reserved.</p>
 
         <div className="legal__links">
           <span>
-            Made with <span className="heart">♥</span> remotely by Leven Plus
+            Made with <span className="heart">♥</span> remotely by Opsi Vault
           </span>
         </div>
       </div>
