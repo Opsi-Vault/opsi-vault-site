@@ -24,8 +24,8 @@ body {
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #fff;
-  background: #00305d;
-  border-top: 2.5px solid #0f6fc8;
+  background: #1c1c1c;
+  border-top: 2.5px solid #1c1c1c;
 }
 
 .footer > * {
@@ -42,8 +42,42 @@ body {
   @media only screen and (min-width: 550px) {
     width: 200px;
   }
-  svg {
-    width: 100%;
+  h1 {
+    @media only screen and (max-width: 450px) {
+      font-size: 10vmin;
+      span {
+        font-size: 6.6vmin;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      font-size: 6vmin;
+      span {
+        font-size: 4vmin;
+      }
+    }
+
+    font-size: 1.5vmax;
+    font-family: var(--font-heebo);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    letter-spacing: 0.25em;
+    span {
+      @media only screen and (max-width: 450px) {
+        font-size: 6.6vmin;
+      }
+      @media only screen and (max-width: 1024px) {
+        font-size: 4vmin;
+      }
+
+      font-size: 1vmax;
+      font-family: var(--font-heebo);
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+      color: #f2f2f2be;
+    }
   }
 }
 
@@ -78,9 +112,9 @@ body {
   font-size: 1rem;
   padding: 0 1.3em;
   transition: all 0.3s ease-in-out;
-  &:hover{
+  &:hover {
     background: #fff;
-    color: #232323;
+    color: #f2f2f2;
   }
 }
 
@@ -107,28 +141,28 @@ body {
   margin-right: 1.25em;
 }
 
-.nav__ul>li{
-    transition: all 0.3s linear;
-    &:hover{
-        transform: translateX(20px);
-        a{
-            color: #0f6fc8;
-        }
+.nav__ul > li {
+  transition: all 0.3s linear;
+  &:hover {
+    transform: translateX(20px);
+    a {
+      color: #f2f2f2;
     }
+  }
 }
 
 .nav__ul a {
   color: #999;
   padding-left: 15px;
   position: relative;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     top: 50%;
     left: 0;
     width: 10px;
     height: 1px;
-    background: #0f6fc8;
+    background: #fff;
   }
 }
 
