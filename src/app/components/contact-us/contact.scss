@@ -19,18 +19,18 @@
   padding: 60px 0;
   background-image: linear-gradient(
     to top,
-    #0f6fc880,
-    #3a6dc680,
-    #516cc380,
-    #626bc080,
-    #706abd80,
-    #7b69ba80,
-    #8468b680,
-    #8d67b280,
-    #9566ae80,
-    #9d65a980,
-    #a365a580,
-    #a965a080
+    #1c1c1c25,
+    #1c1c1c30,
+    #1c1c1c35,
+    #1c1c1c40,
+    #1c1c1c45,
+    #1c1c1c50,
+    #1c1c1c55,
+    #1c1c1c60,
+    #1c1c1c65,
+    #1c1c1c70,
+    #1c1c1c75,
+    #1c1c1c80
   );
 }
 
@@ -116,7 +116,7 @@
     }
     &:focus {
       background-color: rgba(255, 255, 255, 0.6);
-      outline: 4px solid #0f6fc8;
+      outline: 4px solid #1c1c1c;
       color: #232323;
     }
   }
@@ -133,19 +133,20 @@
   button {
     width: max-content;
     margin: 0 auto;
-    background: #fff;
-    border: 0;
+    background: #f2f2f2;
+    border: 2px solid #f2f2f2;
     display: inline-block;
     text-align: center;
     padding: 14px 30px;
     border-radius: 7px;
     transition: 0.3s;
-    color: #232323;
+    color: #1c1c1c;
     cursor: pointer;
     font-size: 1em;
     &:hover {
-      background-color: #0f6fc8;
-      color: #fff;
+      background-color: transparent;
+      color: #f2f2f2;
+      border: 2px solid #f2f2f2;
     }
   }
 }
