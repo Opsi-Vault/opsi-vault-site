@@ -14,7 +14,7 @@ const AboutUs = () => {
     <section className="about-us-main-contianer" id="about-us">
       <div className="about-us-content">
         <motion.div className="left-content-au" initial={{ y: 50, opacity: 0 }} whileInView={{y: 0, opacity: 1}} transition={{ease: "easeInOut" }}>
-          <ul>
+          {/* <ul>
             <li>
               <span className="icon">
                 <BsGlobe2 />
@@ -54,7 +54,7 @@ const AboutUs = () => {
                 </button>
               </div>
             </li>
-          </ul>
+          </ul> */}
         </motion.div>
         <motion.div className="right-content-au" initial={{ y: 50, opacity: 0 }} whileInView={{y: 0, opacity: 1}} transition={{ease: "easeInOut" }}>
           <h5>ABOUT OPSI VAULT</h5>
