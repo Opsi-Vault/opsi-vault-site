@@ -300,6 +300,9 @@
     border-radius: 2em;
     padding: 1.5em;
     position: relative;
+    @media only screen and (max-with:1023px){
+    width:100%;
+    }
     h3{
       color: #1c1c1c;
       font-size: 4vmax;
