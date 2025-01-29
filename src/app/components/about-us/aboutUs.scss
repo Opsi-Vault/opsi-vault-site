@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   @media only screen and (max-width: 450px) {
     padding: 0 1.5em;
@@ -35,8 +36,13 @@
 
 .left-content-au {
   width: 100%;
-  height: auto;
+  height: 35em;
+  border-radius: 3em;
   box-shadow: 0px 0px 30px 13px #1c1c1c23;
+  background-image: url("https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   @media only screen and (min-width: 800px) {
     width: 40%;
   }
@@ -61,7 +67,8 @@
 .icon {
   font-size: 2.5em;
   margin-right: 5px;
-  color: #1c1c1c;
+  // color: #1c1c1c;
+  color: #00000000;
 }
 
 .lau-content {
@@ -70,10 +77,12 @@
     margin-bottom: 10px;
     font-size: 1.4em;
     font-weight: 500;
-    color: #444444;
+    // color: #444444;
+    color: #00000000;
   }
   p {
-    color: #616161;
+    // color: #616161;
+    color: #00000000;
     display: block;
     // letter-spacing: 1px;
     line-height: 1.2em;
@@ -84,8 +93,8 @@
     font-size: 1em;
     font-weight: 500;
     margin-top: 3em;
-    color: #fff;
-    background: #1c1c1c;
+    color: #00000000;
+    background: #00000000;
     border: 0;
     border-radius: 5px;
     text-align: center;
