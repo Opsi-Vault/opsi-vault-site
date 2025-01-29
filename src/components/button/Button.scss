@@ -1,5 +1,5 @@
 .button {
-  padding: .8em 1.6em;
+  padding: 1em 2em;
   border: 2px solid #1c1c1c;
   background-color: #1c1c1c;
   color: #fff;
@@ -7,7 +7,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.6vmax;
+  font-size: 0.8vmax;
   border-radius: 1em;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -16,10 +16,6 @@
   &:hover {
     background-color: #fff;
     color: #1c1c1c;
-  }
-
-  &:active {
-    transform: scale(0.95);
   }
 
   @media only screen and (max-width: 1023px){
