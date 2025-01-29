@@ -53,7 +53,24 @@ export default function Home() {
                   <button className="right-section-button"><MdArrowOutward className="top-right-arrow" /></button>
                 </div>
               </div>
-              <div className="hero-section-card-container"></div>
+              <div className="hero-section-card-container">
+                <div className="hsc-one">
+                  <h3>10</h3>
+                  {/* <span className="flex"> */}
+                    <p>TEAM MEMBERS</p>
+                    <button><MdArrowOutward /></button>
+                  {/* </span> */}
+                </div>
+                <div className="hsc-two">
+                  <h3>49K</h3>
+                  <p>M2 TO BUILT</p>
+                  <button>RELIABLE</button>
+                </div>
+                <div className="hsc-three">
+                  <h3>256M</h3>
+                  <p>PORTFOLIO VALUE</p>
+                </div>
+              </div>
             </section>
             {/* There are each single pages for the following component which will be designed shortly */}
             <AboutUs />
