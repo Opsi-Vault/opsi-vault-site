@@ -31,9 +31,9 @@ export default function Home() {
             <Header />
             <section className="hero-section">
               <div className="hero-section-upper-container">
-                <h1>YOUR FUTURE, OUR MISSION</h1>
+                <h1>YOUR POTENTIAL, OUR SOLUTION</h1>
                 <div>
-                  <h3>Exceeding Standards In Elite Construction</h3>
+                  <h3>Cutting Costs and Scaling Innovations</h3>
                   <Button onClick={() => console.log("Clicked")}>
                     Learn More
                   </Button>
@@ -44,31 +44,35 @@ export default function Home() {
                 <div className="hero-image-content-container">
                   <section className="left-section">
                     <div className="tag">NEWS</div>
-                    <h2>Leader In Elite Construction</h2>
+                    <h2>Optimizing Cloud Costs with Smart Solutions</h2>
                     <p>
-                      Our services: service1, service2, service3, service4, and
-                      service5
+                      Our expertise: DevOps, Cloud Optimization, AI Integration,
+                      Security, and Infrastructure Scaling
                     </p>
                   </section>
-                  <button className="right-section-button"><MdArrowOutward className="top-right-arrow" /></button>
+                  <button className="right-section-button">
+                    <MdArrowOutward className="top-right-arrow" />
+                  </button>
                 </div>
               </div>
               <div className="hero-section-card-container">
                 <div className="hsc-one">
-                  <h3>10</h3>
+                  <h3>03</h3>
                   {/* <span className="flex"> */}
-                    <p>TEAM MEMBERS</p>
-                    <button><MdArrowOutward /></button>
+                  <p>FOUNDERS DRIVING INNOVATION</p>
+                  <button>
+                    <MdArrowOutward />
+                  </button>
                   {/* </span> */}
                 </div>
                 <div className="hsc-two">
-                  <h3>49K</h3>
-                  <p>M2 TO BUILT</p>
+                  <h3>5+</h3>
+                  <p>PERSONAL CLOUD PROJECTS</p>
                   <button>RELIABLE</button>
                 </div>
                 <div className="hsc-three">
-                  <h3>256M</h3>
-                  <p>PORTFOLIO VALUE</p>
+                  <h3>12+</h3>
+                  <p>OPTIMIZED CLOUD SOLUTIONS</p>
                 </div>
               </div>
             </section>
