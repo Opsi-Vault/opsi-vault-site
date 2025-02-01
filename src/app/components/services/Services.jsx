@@ -69,7 +69,7 @@ const Services = () => {
                   digital age. Join us in the cloud and experience a future
                   where your business soars.
                 </div>
-                <button className="card-btn-svc front" onClick={() => router.push("#get-a-free-quote")}>
+                <button className="card-btn-svc front font-color-white" onClick={() => router.push("#get-a-free-quote")}>
                   Get a Quote
                   <FaAngleRight />
                 </button>
