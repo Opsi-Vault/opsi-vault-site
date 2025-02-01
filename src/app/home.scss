@@ -162,7 +162,7 @@
   position: relative;
 
   @media only screen and (max-width: 320px) {
-    height: 10em;
+    height: 12em;
   }
 
   @media only screen and (min-width: 321px) and (max-width: 425px) {
@@ -192,7 +192,7 @@
     bottom: 0;
 
     @media only screen and (max-width: 320px) {
-      height: 10em;
+      height: 12em;
     }
 
     @media only screen and (min-width: 321px) and (max-width: 425px) {
@@ -238,7 +238,7 @@
     width: 100%;
     height: 100%;
     backdrop-filter: blur(0px);
-    padding: 0 1em;
+    padding: 4em 1em;
   }
 
   // For large devices and up
@@ -283,6 +283,8 @@
     @media only screen and (max-width: 1023px) {
       font-size: 5vmin;
       font-weight: 400;
+      width: 90%;
+      margin: 0 2.5%;
     }
   }
 
@@ -497,15 +499,15 @@
         font-size: 1em;
 
         @media only screen and (max-width: 320px) {
-          transform: scale(150%) translate(-25%, -25%);
+          transform: scale(150%) translate(-25%, -100%);
         }
 
         @media only screen and (min-width: 321px) and (max-width: 425px) {
-          transform: scale(200%) translate(-50%, -50%);
+          transform: scale(200%) translate(-50%, -110%);
         }
 
         @media only screen and (min-width: 426px) and (max-width: 768px) {
-          transform: scale(250%) translate(-50%, -50%);
+          transform: scale(250%) translate(-50%, -100%);
         }
 
         @media only screen and (min-width: 769px) and (max-width: 1023px) {
