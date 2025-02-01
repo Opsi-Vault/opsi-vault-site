@@ -1,21 +1,17 @@
-import React from "react";
-import styles from "./loader.module.scss";
+import React from 'react';
+import styles from './loader.module.scss';
 
 const Loader = () => {
   return (
-    <div>
-      <div className={styles.loader}>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-      </div>
+    <div className={styles.spinner}>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   );
 };
